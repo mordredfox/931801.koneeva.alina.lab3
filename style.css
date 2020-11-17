@@ -1,0 +1,72 @@
+html {
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+header{
+	
+	height: 18px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	background-color: green;
+	top: 0px;
+}
+footer{
+    
+	height: 25px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: black;
+	bottom: 0px;
+}
+.MainBody{
+
+	min-height: 100%;
+    display: flex;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	width: 100%;
+}
+.Menu{
+	padding-top: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	min-height: 100%;
+	float: left;
+	width: 120px;
+	color:white;
+	background-color:red;
+}
+.Content{
+	
+	text-align: justify;
+	padding-top: 30px;
+	padding-left: 5px;
+	padding-right: 15px;
+	margin-left: 15px;
+}
+.Content::selection{
+	background-color: green;
+}
+.Content:first-letter{
+	font-size: 150%;
+	font-family: serif;
+	color:red;
+}
+.URLs{
+	padding-bottom: 6px;
+	text-decoration: underline;
+}
+.URLs:hover{
+	background-color: green;
+}
